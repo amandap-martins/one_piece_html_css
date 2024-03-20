@@ -1,0 +1,14 @@
+.characters-home {
+    background: linear-gradient(#E0FFFF,#4169E1);
+}
+
+.characters-home__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.characters-home__link:hover {
+    color: #de0a0a;
+    font-weight: bold;
+    text-decoration: underline;
+}

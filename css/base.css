@@ -1,0 +1,24 @@
+@import url(./_reset.css);
+@import url(./Header/_header.css);
+@import url(./Header/_logo.css);
+@import url(./Footer/_footer-copyright.css);
+@import url(./Footer/_footer-logo.css);
+@import url(./Footer/_footer.css);
+@import url(./Menu/_menu-link.css);
+@import url(./Menu/_menu-list.css);
+@import url(./Menu/_menu.css);
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	padding: 6% 6%;
+}
+
+.title {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}

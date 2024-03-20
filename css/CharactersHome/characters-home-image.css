@@ -1,0 +1,29 @@
+.characters-home__image {
+    width: 100%;
+	box-shadow: 10px 10px 10px #191970;
+	margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+
+	.characters-home__image {
+		width: 70%;
+		box-shadow: 10px 10px 10px #191970;
+		margin-bottom: 2em;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+
+	.characters-home__image {
+		width: 45%;
+		box-shadow: 10px 10px 10px #191970;
+		margin-bottom: 2em;
+		opacity: 1;
+		transition: 400ms;
+	}
+
+	.characters-home__image:hover {
+		opacity: 0.5;
+	}
+}

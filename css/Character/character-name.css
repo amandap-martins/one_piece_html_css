@@ -1,0 +1,21 @@
+.character__name {
+    font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .character__name{
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .character__name{
+        font-size: 2rem;
+        margin-top: -3rem;
+        margin-bottom: 2rem;
+    }
+}

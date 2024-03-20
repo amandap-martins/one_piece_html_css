@@ -1,0 +1,24 @@
+.character__image {
+    width: 100%;
+    box-shadow: 10px 10px 10px #191970;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .character__image {
+        width: 45%;
+        height: auto;
+        float: left;
+        margin-right: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .character__image {
+        width: 50%;
+        height: auto;
+    }
+}

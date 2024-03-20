@@ -1,0 +1,10 @@
+.characters-container {
+	background: linear-gradient(#E0FFFF 20%,#4169E1);
+}
+
+@media screen and (min-width: 1024px) {
+
+    .characters-container {
+        padding-top: 3%;
+    }
+}

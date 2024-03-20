@@ -1,0 +1,13 @@
+.about-onePiece__information {
+	font-size: 1rem;
+	margin: 2rem 0;
+	line-height: 1.5rem;
+}
+
+.about-onePiece__information--bold {
+	font-weight: bold;
+}
+
+.about-onePiece__information--italic {
+	font-style: italic;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Pesquisa | One Piece</title>
+		
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/Search/search.css">
+		<link rel="stylesheet" href="../css/Search/search-title.css">
+		<link rel="stylesheet" href="../css/Search/search-subtitle.css">
+		<link rel="stylesheet" href="../css/Form/form.css">
+		<link rel="stylesheet" href="../css/Form/form-label.css">
+		<link rel="stylesheet" href="../css/Form/form-input.css">
+		<link rel="stylesheet" href="../css/Form/form-checkbox.css">
+		<link rel="stylesheet" href="../css/Form/form-button.css">
+		<link rel="stylesheet" href="../css/Fieldset/fieldset-watch.css">
+		<link rel="stylesheet" href="../css/Fieldset/fieldset-legend.css">
+		<link rel="stylesheet" href="../css/Fieldset/fieldset-character.css">
+		<link rel="stylesheet" href="../css/Fieldset/fieldset-select.css">
+	</head>
+
+	<body>
+		<header class="header">
+			<h1><a href="../index.html"><img src="../images/logo.png" alt="Home do One Piece" class="header__logo"></a></h1>
+
+			<nav class="menu">
+				<ul class="menu__list">
+					<li><a href="../index.html" class="menu__link">Home</a></li>
+					<li><a href="characters.html" class="menu__link">Personagens</a></li>
+					<li><a href="search.html" class="menu__link">Pesquisa</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="container search">
+
+			<h2 class="search__title">Pesquisa</h2>
+			<p class='search__subtitle'>Qual seu Chapéu de Palha favorito?</p>
+			
+			<form class="form">
+				<label for="fullName" class="form__label">Nome Completo</label>
+				<input type="text" id="fullName" class="form__input" required >
+
+				<label for="email" class="form__label">E-mail</label>
+				<input type="email" id="email" class="form__input" required placeholder="seuemail@dominio.com">
+
+				<fieldset class="fieldset__watch">
+					<legend class="fieldset__legend">Assiste o One Piece?</legend>
+
+					<label for="yesWatch" class="form__label">
+						<input type="radio" name="answerWatch" value="yes" id="yesWatch"> 
+						Sim
+					</label>
+					
+					<label for="noWatch" class="form__label">
+						<input type="radio" name="answerWatch" value="no" id="noWatch"> 
+						Não
+					</label>
+				</fieldset>
+
+				<fieldset class="fieldset__character">
+					<legend class="fieldset__legend">Escolha seu Chapéu de Palha favorito</legend>
+					<select class="fieldset__select">
+						<option>Luffy</option>
+						<option>Zoro</option>
+						<option>Nami</option>
+						<option>Usopp</option>
+						<option>Sanji</option>
+						<option>Chopper</option>
+						<option>Robin</option>
+						<option>Franky</option>
+						<option>Brook</option>
+						<option>Jinbe</option>
+					</select>
+				</fieldset>
+
+				<label for="mensagem" class="form__label">Porquê?</label>
+				<textarea id="mensagem" cols="30" rows="10" class="form__input" required></textarea>
+
+				<label class="form__label">
+					<input type="checkbox" class="form__checkbox" checked>
+					Gostaria de receber por email a pesquisa?
+				</label>
+
+				<input type="submit" value="Enviar Formulário" class="form__button">
+			</form>
+		</main>
+
+		<footer class="footer">
+			<img class="footer__logo" src="../images/logo.png" alt="Logo One Piece">
+			<p class="footer__copyright">&copy; Copyright One Piece - Amanda</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+.characters__item {
+    text-align: center;
+	width: 65%;
+	vertical-align: top;
+	margin: 2%;
+	padding: 20px 10px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border: 2px solid #000000;
+
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .characters__item {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .characters__item {
+        width: 21%;
+    }
+
+    .characters__item:hover {
+        border-color: #00BFFF;
+    }
+}
